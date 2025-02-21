@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+    --color-BgCap1: #11071a;
+    --color-BgCap2: #19050f;
+    --color-TextCap1: #d1aaf4;
+    --color-TextCap2: #f49fce;
+}
