@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
 const variantStyle = {
-    primary : "bg-blue-600 text-white font- hover:bg-blue-900",
+    primary : "bg-blue-600 text-white font-bold hover:bg-blue-900",
     secondary: "bg-custom-3 border border-blue-500 text-purple-200 font-bold",
     other: "bg-red-700 border border-black text-white font-bold",
     notAllowed: "bg-red-500 border border-black text-white font-bold cursor-not-allowed",
