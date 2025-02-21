@@ -1,10 +1,18 @@
 
 import { Capsule } from "./components/Capsule";
+import CodeBlock from "./components/CodeBlock";
 import { Intro } from "./components/Intro";
 import { Navbar } from "./components/Navbar";
 import { File } from "./icons/File";
 
 export default function App() {
+    const codeTest = `#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello world!!" << endl;
+    return 0;
+}`
     return (
         <div className="h-screen bg-black">
             <Navbar/>
@@ -15,6 +23,11 @@ export default function App() {
             </div>
 
             <Intro/>
+
+            <div>
+                <CodeBlock title="Website Under Development Wait for some time to complete!!" code={codeTest} output="Hello World!!"/>
+                <CodeBlock title="Website Under Development Wait for some time to complete!!" code={codeTest} output="Hello World!!"/>
+            </div>
         </div>
     )
 }
