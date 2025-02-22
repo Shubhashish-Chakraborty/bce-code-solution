@@ -699,7 +699,7 @@ public:
         cin >> val1 >> val2;
     }
 
-    friend float mean(base ob);
+    friend float mean(base ob); // Friend function declaration
 };
 
 float mean(base ob) {
@@ -709,6 +709,7 @@ float mean(base ob) {
 int main() {
     base obj;
     obj.get();
-    cout << "\nMean value is: " << mean(obj);
+    cout << "Mean value is: " << mean(obj) << endl; // Fixed output formatting
     return 0;
-}`
+}
+`
