@@ -13,7 +13,7 @@ export default function App() {
         <div className="min-h-screen bg-black">
             <Navbar />
 
-            <div className="sticky top-0 z-10 bg-black/10 backdrop-blur-md py-1 shadow-md">
+            <div className="sticky mt-10 md:mt-0 top-0 z-10 bg-black/10 backdrop-blur-md py-1 shadow-md">
                 <div className="mt-2 mb-4 gap-x-4 flex justify-center">
                     <Capsule
                         text="BCE Lab Manual"
