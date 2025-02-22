@@ -13,16 +13,28 @@ export default function App() {
         <div className="min-h-screen bg-black">
             <Navbar />
 
-            <div className="mt-16 gap-x-4 flex justify-center">
-                <Capsule text="BCE Lab Manual" variant="cap1" onClick={() => { window.open("BCE_LAB.pdf") }} startIcon={<File />} />
-                <Capsule text="Try out C/C++ Code" variant="cap2" onClick={() => { window.open("https://www.programiz.com/cpp-programming/online-compiler/") }} startIcon={<Code />} />
+            <div className="sticky top-0 z-10 bg-black/10 backdrop-blur-md py-1 shadow-md">
+                <div className="mt-2 mb-4 gap-x-4 flex justify-center">
+                    <Capsule
+                        text="BCE Lab Manual"
+                        variant="cap1"
+                        onClick={() => { window.open("BCE_LAB.pdf"); }}
+                        startIcon={<File />}
+                    />
+                    <Capsule
+                        text="Try out C/C++ Code"
+                        variant="cap2"
+                        onClick={() => { window.open("https://www.programiz.com/cpp-programming/online-compiler/"); }}
+                        startIcon={<Code />}
+                    />
+                </div>
             </div>
 
             <Intro />
 
             <div>
-                <CodeBlock title="AIM-8: Write a Program to illustrate Arithmetic expressions" code={code8} output={output8}/>
-                <CodeBlock title="AIM-9: Write a Program to illustrate Arrays. Program-9a:" code={code9a} output={output9a}/>
+                <CodeBlock title="AIM-8: Write a Program to illustrate Arithmetic expressions" code={code8} output={output8} />
+                <CodeBlock title="AIM-9: Write a Program to illustrate Arrays. Program-9a:" code={code9a} output={output9a} />
             </div>
         </div>
     )
