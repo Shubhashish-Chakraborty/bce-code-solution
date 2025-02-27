@@ -33,7 +33,7 @@ export default function App() {
             <Intro />
 
             <div>
-                <CodeBlock title="AIM-8: Write a Program to illustrate Arithmetic expressions" code={code8} output={output8} />
+                <CodeBlock title="AIM-8 : Write a Program to illustrate Arithmetic expressions" code={code8} output={output8} />
                 <CodeBlock title="AIM-9: Write a Program to illustrate Arrays. Program-9a:" code={code9a} output={output9a} />
                 <CodeBlock title="AIM-9: Write a Program to illustrate Arrays. Program-9b:" code={code9b} output={output9b}/>
                 <CodeBlock title="AIM-10: Write a Program to illustrate functions. Program-10a:" code={code10a} output={output10a}/>
